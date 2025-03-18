@@ -1,5 +1,3 @@
-import 'package:bookly_app_new/Features/home/presentation/views/home_view.dart';
-import 'package:bookly_app_new/constants.dart';
 import 'package:bookly_app_new/core/utils/app_router.dart';
 import 'package:bookly_app_new/core/utils/assets.dart';
 import 'package:flutter/material.dart';
