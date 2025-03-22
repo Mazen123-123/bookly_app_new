@@ -12,7 +12,8 @@ class SplashViewBody extends StatefulWidget {
   State<SplashViewBody> createState() => _SplashViewBodyState();
 }
 
-class _SplashViewBodyState extends State<SplashViewBody> with SingleTickerProviderStateMixin {
+class _SplashViewBodyState extends State<SplashViewBody>
+    with SingleTickerProviderStateMixin {
   late AnimationController animationController;
   late Animation<Offset> slidingAninmation;
 
@@ -49,7 +50,8 @@ class _SplashViewBodyState extends State<SplashViewBody> with SingleTickerProvid
       duration: const Duration(seconds: 5),
     );
 
-    slidingAninmation = Tween<Offset>(begin: Offset(0, 5), end: Offset.zero).animate(
+    slidingAninmation =
+        Tween<Offset>(begin: Offset(0, 5), end: Offset.zero).animate(
       animationController,
     );
 

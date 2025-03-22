@@ -6,7 +6,8 @@ class CustomButton extends StatelessWidget {
     super.key,
     required this.textColor,
     this.borderRadius,
-    required this.backgroundColor, required this.text,
+    required this.backgroundColor,
+    required this.text,
   });
 
   final String text;

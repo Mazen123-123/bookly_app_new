@@ -29,7 +29,7 @@ class BooksAction extends StatelessWidget {
               textColor: Colors.white,
               borderRadius: BorderRadius.only(
                 topRight: Radius.circular(16),
-                bottomRight: Radius.circular(16 ),
+                bottomRight: Radius.circular(16),
               ),
             ),
           ),
